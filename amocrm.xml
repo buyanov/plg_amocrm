@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content" method="upgrade">
+	<name>plg_amocrm</name>
+	<author>Buyanov Danila</author>
+	<creationDate>17 June 2016</creationDate>
+	<copyright>Copyright (C) 2012 - 2016 Saity74 LLC. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@saity74.ru</authorEmail>
+	<authorUrl>www.saity74.ru</authorUrl>
+	<version>1.0</version>
+	<description>PLG_AMOCRM_DESC</description>
+	<files>
+		<filename plugin="amocrm">amocrm.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_amocrm.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_amocrm.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_content_amocrm.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_content_amocrm.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
