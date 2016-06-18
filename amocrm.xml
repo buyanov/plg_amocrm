@@ -21,7 +21,11 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-
+				<field
+						type="note"
+						label="PLG_AMOCRM_HELP"
+						description="PLG_AMOCRM_HELP_DESC"
+				/>
 			</fieldset>
 		</fields>
 	</config>
