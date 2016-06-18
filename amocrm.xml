@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.4" type="plugin" group="content" method="upgrade">
+<extension version="3.5" type="plugin" group="content" method="upgrade">
 	<name>plg_amocrm</name>
 	<author>Buyanov Danila</author>
 	<creationDate>17 June 2016</creationDate>
@@ -21,7 +21,11 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-
+				<field
+						type="note"
+						label="PLG_AMOCRM_HELP"
+						description="PLG_AMOCRM_HELP_DESC"
+				/>
 			</fieldset>
 		</fields>
 	</config>
